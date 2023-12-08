@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Html Advanced Table</title>
+</head>
+<body>
+	<h1>Html Advanced Table</h1><hr>
+	<li>Table tag represents the table format.</li>
+	<li>Caption tag represents tittle of the table for eg: Sales Report </li>
+	<li>colgroup tag is used to define a group of elements.</li>
+	<li>thead tag is used to define table head.</li>
+	<li>tr tag is used to table row.</li>
+	<li>th tag is used to table head.</li>
+	<li>tbody tag is used to write body for the table.</li>
+	<li>td tag is used to write table data in the table.</li>
+	<li>tfoot tag is used to table footer for the table.</li>
+	<li>col is used to specify the columns in the table.</li>
+
+
+	<hr>
+<h1>Sales Report Table</h1>
+	<table style="width: 50%; border: 2px solid black;">
+		<caption style="width: 100%; text-align: left; font-weight: bolder; margin-bottom: 10px;">Sales Report</caption>
+		<colgroup>
+			<col style="width: 10%;" />
+			<col style="width: 10%;" />
+			<col style="width: 10%;" />
+			<col style="width: 10%;" />
+		</colgroup>
+
+		<thead>
+			<tr>
+				<th style="background: darkcyan; color: white; padding: 10px; border: 1px solid darkred ;">Region</th>
+				<th style="background: darkcyan; color: white; padding: 10px; border: 1px solid darkred ;">Product</th>
+				<th style="background: darkcyan; color: white; padding: 10px; border: 1px solid darkred ;">Qnty Sold</th>
+				<th style="background: darkcyan; color: white; padding: 10px; border: 1px solid darkred ;">Total Sales</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td style="padding: 10px; border: 1px solid black;">North</td>
+				<td style="padding: 10px; border: 1px solid black;">Redmi</td>
+				<td style="padding: 10px; border: 1px solid black;">100</td>
+				<td style="padding: 10px; border: 1px solid black;">10000</td>
+			</tr>
+			<tr>
+				<td style="padding: 10px; border: 1px solid black;">East</td>
+				<td style="padding: 10px; border: 1px solid black;">Samsung</td>
+				<td style="padding: 10px; border: 1px solid black;">90</td>
+				<td style="padding: 10px; border: 1px solid black;">9000</td>
+			</tr>
+			<tr>
+				<td style="padding: 10px; border: 1px solid black;">West</td>
+				<td style="padding: 10px; border: 1px solid black;">realme</td>
+				<td style="padding: 10px; border: 1px solid black;">80</td>
+				<td style="padding: 10px; border: 1px solid black;">8000</td>
+			</tr>
+			<tr>
+				<td style="padding: 10px; border: 1px solid black;">South</td>
+				<td style="padding: 10px; border: 1px solid black;">Nokia</td>
+				<td style="padding: 10px; border: 1px solid black;">70</td>
+				<td style="padding: 10px; border: 1px solid black;">7000</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td style="padding: 10px; border: 1px solid black; font-weight: bolder;">Total Sales</td>
+				<td style="padding: 10px; border: 1px solid black;">34000</td>
+			</tr>
+		</tfoot>
+
+	</table>
+
+</body>
+</html>
