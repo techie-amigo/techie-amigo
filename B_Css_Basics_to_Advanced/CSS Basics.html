@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Basics</title>
+</head>
+<body>
+
+	<h1>CSS Basics</h1><hr>
+
+	<li>CSS:: Cascading Style Sheet</li>
+	<li>Css is used to make our html page look good way.</li>
+
+	<h2>Css History</h2><hr>
+
+	<li>CSS:: stands for Cascading style sheet. </li>
+	<li>CSS:: Style sheet language for web design,alongside HTML and Javascript.</li>
+	<li>CSS:: Proposed '94 to style web pages, addressing HTML's limitation in visual layout.</li>
+	<li>Lie Proposed CSS to separate presentation from content, enhancing appearance control.</li>
+	<li>CSS1 (Dec '96) and CSS2 (may '98) published by w3c, introducing positioning capabilities.</li>
+	<li>CSS2.1 fixed errors, clarified specs, and reinstated dropped aspects.</li>
+
+	<h2>The Relation Between HTML/CSS/Javascript</h2><hr>
+
+	<h3>HTML</h3>
+	<li>HTML is the backbone of anny web page.</li>
+	<li>HTML is a markup language.</li>
+	<li>It provides the basic structure of the page, and it's used to create and organize the content.</li>
+
+	<h3>CSS(Cascading Style Sheet)</h3>
+	<li>CSS is styling and the control of the layout.</li>
+	<li>CSS is also a Markup language.</li>
+
+	<h3>Javascript</h3>
+	<li>Javascript is the progrmming language that makes web pages more interactive.</li>
+	<li>javascript is a true programming language.</li>
+	<li>It can control both the HTML and CSS and is used to manipulate web pages.</li>
+	<li>Java script handles some events like clicks and so much more.</li>
+
+	<h2>Importance of css</h2><hr>
+	<li>Separation of content and presentation</li>
+	<li>Visual Customization</li>
+	<li>Responsiveness</li>
+	<li>Improved user experience</li>
+	<li>Interactive user interfaces</li>
+	<li>Accessibility</li>
+	<li>CSS is a powerful tool for creating visually engaging websites.</li>
+	<li>It enables developers and designers to create sites that not only look great, but also provide better, more intuitive user experiences.</li>
+
+	<h2>Browser Default Stylesheet</h2><hr>
+	<li>Built-in styel applied when no custom CSS defined.Provides basic readable layout.</li>
+	<li>The browser default style sheet,also known as the user agent style sheet is a built in stylesheet that each web browsers uses to apply default styles to a HTML element.</li>
+	<li>If no other Styles are defined by the web developer.</li>
+	<li>The purpose of this Trail is to ensure that web pages have some basic readable layout,even when no custom css have been applied.</li>
+
+	<h2>How CSS Works?</h2><hr>
+	<li><b>Linking CSS to HTML ::</b> CSS must be connected to the HTML document.</li>
+	<li>This can be done by three ways.</li><br>
+	<li><b>CSS Selectors ::</b> CSS styles are applied to HTML element through what is called selectors, meaning we are going to select the pieces of HTML that we want to style.</li><br>
+	<li><b>CSS declaration ::</b> This declaration is made up of a property and a value separated by a colon and enclosed in a declaration.</li>
+	<li>The property specifies what style or characteristics you want to change.</li><br>
+	<li><b>The cascade ::</b> Cascade is one of the most important aspects of CSS.</li>
+	<li>It means that when multiple styles are applied to the same element, the browser follows certain rules.To determine which style takes precedence.</li><br>
+	<li><b>Inheritance ::</b> IN CSS some styles like color, font, size, family and others are inherited by child elements from their parent element , while other properties like padding margin border are not.</li>
+	<li>This feature of CSS can be used to write more efficient code and maintain consistancy.</li><br>
+	<li><b>Rendering ::</b> This is where we are going to see the actual effect of the CSS being appied to the element.</li>
+	<li>Once the breser has determined the appropriate styles for each element through cascading and inheritance, then it applies those styles and renders the web page for viewing.</li>
+
+	<h2>How Browser Renders CSS?</h2><hr>
+	<li><b>Fetching Resources ::</b> Before a browser can display the actual application or website, it needs to download the resources for the server</li>
+	<li>These resources can be of Javascript, CSS, HTML and any other files. so the process begins when the browser fetches the HTML file.</li>
+	<br>
+	<li><b>Parsing HTML :: </b>The browser parses the HTML document into a document object modelwhich represents" DOM "</li>
+	<li>Which is a tree like Structure representing all the elements on the page.</li><br>
+	<li><b>Parsing CSS :: </b>During the parsing of a HTML and CSS, the passing of CSS occurs simultaneously.</li>
+	<li>The browser parses any linked or embedded CSS into a CSS object model called CSS SOM or CSS ORM.</li>
+	<li>Which is a representation of all the styles that will be applied to the DOM.</li><br>
+	<li><b>Constructing Render Tree :: </b> The browser combines the Dom and CSS samples into render tree.</li>
+	<li>this render tree contains information about each visible DOM element along with CSS properties that should be applied to the HTML element</li><br>
+	<li><b>Layout :: </b>Once the render tree is built, then the browser calculates the layout, determine the exact position and size of each element on the screen.</li>
+	<li>The result of this process is a box model, which we will talk about it as we move on.It includes details like dimensions,padding,border and margin.</li><br>
+	<li><b>Painting :: </b>The browser paint each node in the render tree to the screen following the order of the tree.</li>
+	<li>Painting involves applying the exact styles defined in the CSS.</li>
+	<li> Examples colors, gradients, images, borders, shadows, and so much more</li>
+</body>
+</html>
